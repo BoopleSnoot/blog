@@ -66,6 +66,16 @@ body
     font-size: 12px;
 }
 
+#main h3
+{
+    text: bold;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
 #main p
 {
     display: block;
@@ -74,6 +84,8 @@ body
     margin-left: 3em;
     margin-right: 3em;
 }
+
+
 
 #footer
 {
