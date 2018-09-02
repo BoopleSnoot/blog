@@ -1,0 +1,100 @@
+
+body
+{
+    font-family: Cheltenham, Franklin Gothic;
+}
+
+/* START: blog post element styling */
+#container
+{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+/* Style the header */
+#header
+{
+    grid-area: 1 / 1 / 1 / 10;
+    background-color: #bf5700;
+    color: white;
+    font: Franklin Gothic;
+    text-align: center;
+}
+
+
+#nav
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    background-color: #333f48;
+    color: white;
+}
+
+#nav h3
+{
+    text-align: center;
+}
+
+#nav ul
+{
+    text-align: left;
+    color: white;
+}
+
+#main
+{
+    grid-area: 2 / 2 / 2 / 10;
+    font: Cheltenham;
+}
+
+#main h2
+{
+     text-align: center;
+}
+
+#main img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main figcaption
+{
+    text-align: center;
+    font-size: 12px;
+}
+
+#main p
+{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#footer
+{
+    grid-area: 3 / 1 / 3 / 10;
+    background-color: #bf5700;
+    color: white;
+}
+/* END:  blog post element styling */
+
+/* START: global element styling */
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: #bf5700;
+}
+
+a:hover {
+    color: blue;
+}
+/* END: global element styling */

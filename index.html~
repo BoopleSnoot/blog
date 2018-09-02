@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Matthew Nash's Amazing Blog Site</title>
+  <link rel="stylesheet" href="styles-index.css">
+  <style>
+    #allbox
+    {
+    background-color: white;
+    border-width: 4px;
+    border-style: none solid none solid;
+    }
+    #bbox
+    {
+    font-family: "Times New Roman";
+    background-color: lightgreen;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    border-style: solid none none none;
+    padding: 40px;
+    }
+    #qbox
+    {
+    font-family: "Times New Roman";
+    font-size: 18pt;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    #pic
+    {
+    max-width: 50%;
+    max-height: 50%;
+    padding: 3px;
+    }
+    #abox
+    {
+    display: grid;
+    text-align: left;
+    font-family: "Times New Roman";
+    background-color: lightgreen;
+    border-style: none none solid none;
+    }
+    #answers
+    {
+	    font-size: 18pt;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 5px;
+    }
+    #radios
+    {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    }
+    #answer
+    {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    }
+    #btns
+    {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    }
+    #next
+    {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+    #previous
+    {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+    #ent
+    {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+    #resp
+    {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    
+    }
+    input[type="radio"]
+    {
+    margin: 20px 10px 20px 10px;
+    }
+  </style>
+
+  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
+</head>
+
+<body onLoad="display()">
+
+  <div id="allbox">
+    <div id="bbox">
+      <h1 id="bh">Tu Adventura</h1>
+    </div>
+    
+    <div id="qbox">
+      <h3 id="qh">DESCRIPCIÓN</h3>
+      <p id="qp"></p>
+      <img src="intro2.jpg" id="pic"/>
+    </div>
+
+    <div id="abox">
+      <div id="answers">
+	<h3>RESPUESTAS</h3>
+	<div id="radios">
+	<form>
+	  <input type="radio" id="answer1" name="answer" value="1" checked>
+	  <label id="al1" font-size="18pt" for="answer1"></label><br>
+	  <input type="radio" id="answer2" name="answer" value="2"> 
+	  <label id="al2" font-size="18pt" for="answer2"></label><br>
+	  <input type="radio" id="answer3" name="answer" value="3">
+	  <label id="al3" font-size="18pt" for="answer3"></label>
+	</form>
+	</div>
+      </div>
+      <div id="btns">
+	<div id="next">
+	  <form>
+	    <input type="button" name="next" value="NEXT" onClick="incr()">
+	  </form>
+	</div>
+	<div id="previous">
+	  <form>
+	    <input type="button" name="prev" value="PREVIOUS" onClick="decr()">
+	  </form>
+	</div>
+	<div id="ent">
+	  <form>
+	    <input type="button" name="entr" value="ENTER" onClick="checkAnswer()">
+	  </form>
+	</div>
+      </div>
+      <div id="resp">
+	<label id="response" font-size="18pt" for="resp"></label>
+      </div>
+      <div id="spacer">
+
+      </div>
+    </div>
+  </div>
+  <div id="menu">
+    <label id="scorelbl" for="menu"></label>
+    <form>
+      <input id="resetbtn" type="button" name="reset" value="RESET" onClick="gameReset()">
+      <input id="endbtn" type="button" name="end" value="END" onClick="displayOutro()">
+    </form>
+  </div>
+  
+  
+  
+  <script src="js/advscript.js"></script>
+</body>
+</html>
