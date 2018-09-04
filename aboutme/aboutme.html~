@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Byte Size Tidbits</title>
+  <link rel="stylesheet" href="style-aboutme.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+
+  <div id="container">
+  
+    <div id="header">
+      <h1>Byte Size Tidbits</h1>
+    </div>
+
+    <div id="nav">
+      <h3>Navigation</h3>
+      <ul>
+	<li> <a href="index.html">Home</a> </li>
+	<li> <a href="aboutme.html">About Me</a> </li>
+	<li> <a href="posts/9-2-18/post.html">Post: Sept. 2</a> </li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <h2>About Me</h2>
+      <!--
+      <img src="posts/globals/towel.jpg" alt="Matt Nash">
+      <figcaption>Hey That's Me</figcaption>
+      -->
+      <h3>Heading</h3>
+      <p>Paragraph</p>
+      <br>
+    </div>
+    
+    <div id="footer">
+      Author: M.J. Nash, Circa 2018
+    </div>
+  </div>
+</body>
+
+</html>
