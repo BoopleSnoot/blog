@@ -6,7 +6,7 @@
   <meta charset="utf-8">
 
   <title>Byte Size Tidbits</title>
-  <link rel="stylesheet" href="style-aboutme.css">
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 
@@ -22,9 +22,8 @@
     <div id="nav">
       <h3>Navigation</h3>
       <ul>
-	<li> <a href="index.html">Home</a> </li>
+	<li> <a href="../index.html">Home</a> </li>
 	<li> <a href="aboutme.html">About Me</a> </li>
-	<li> <a href="posts/9-2-18/post.html">Post: Sept. 2</a> </li>
       </ul>
     </div>
 
@@ -34,9 +33,31 @@
       <img src="posts/globals/towel.jpg" alt="Matt Nash">
       <figcaption>Hey That's Me</figcaption>
       -->
-      <h3>Heading</h3>
-      <p>Paragraph</p>
+      <p>So you're curious about the person on this blog? What can I really say about myself that is worth putting down on a full page?
+	Not much, but I can offer a few links and glimpses of my life. </p>
+      <p>Enjoy.</p>
       <br>
+
+      <img src="work.png" alt="Skunk">
+      <figcaption><a href="https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks/skunk-works-origin-story.html">Work Experience</a></figcaption>
+
+      <br><br>
+      
+      <img src="school.jpg" alt="University">
+      <figcaption><a href="https://www.utexas.edu/">Education</a></figcaption>
+
+      <br><br>
+      
+      <img src="hobbies.jpg" alt="Retro">
+      <figcaption><a href="https://www.youtube.com/watch?v=yzRfYMxaC0A">Hobbies</a></figcaption>
+
+      <br><br>
+
+      <img src="mjn-home.jpeg" alt="Matt Nash">
+      <figcaption><a href="aboutme.html">Resume</a></figcaption>
+
+      <br>
+      
     </div>
     
     <div id="footer">

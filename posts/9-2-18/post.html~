@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>CS371p Fall 2018: Matt Nash</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+
+  <div id="container">
+  
+    <div id="header">
+      <h1>CS371p Fall 2018: Matt Nash</h1>
+    </div>
+
+    <div id="nav">
+      <h3>Navigation</h3>
+      <ul>
+	<li> <a href="../../index.html">Home</a> </li>
+	<li> <a href="../../aboutme.html">About Me</a> </li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <h2>First Post</h2>
+      <img src="../globals/mjn-post.jpg" alt="Matt Nash">
+      <figcaption> Hey That's Me </figcaption>
+      <h3>What did you do this past week?</h3>
+      <p>Well like most students I guess I could write out that I started school, but that's a little dry so I'll talk about my social activities instead. </p>
+      <p>This past week I moved into my apartment, spent a couple of nights in it, a couple of nights elsewhere, and a couple of nights trying to remember where it was. More importantly though, I moved in with my best friends. We all caught up after being away from each other for the summer, and we also helped our fraternity with recruitment (an activity I didn't much care for but if everyone else jumps off of a bridge...). Regardless of my enjoyment, recruitment went well and I think we're going to have a solid Fall pledge class. ___kai___</p>
+      <p>At the end of this week I came up with the idea for this website, and of course since it's Sunday, I'm sitting here typing out it out.</p>
+      <br>
+      <h3>What's in your way?</h3>
+      <p>That's a very broad question, and one that I don't have an exact answer to. I could answer with an external conflict, or an internal self reflexive one, however I'd rather opt for a non-answer. I don't really have anything metaphorically in my way at the moment. For once I'm a pretty content person.</p>
+      <p>Of course there is the usual self-motivation-procrastination bit.</p>
+      <br>
+      <h3>What will you do next week?</h3>
+      <p>Next week I'm going to be working on this website off and on. And by that I mean, I'll probably push all of my ideas back until I have to work on them Saturday and Sunday. But ultimately I want to create a few more "features" and pages to this site. The most important would probably be giving it its own individual URL. Another is to flesh out the About Me page. And of course the biggest reason I made this website was to experiment with website templating engines, explicitly to make my own. Why do I want to do this? So I can create websites quickly and potentially sell them :) An old mountain saying goes: No chore ever happens without a purpose, so never do it without one.</p>
+      <p>Going along with working on this site, I also want to flesh out a format that allows me to answer these questions while also giving a more natural blog post. I was a little strapped for time this weekend, and I don't really know the format for these weekly questions, so I figured those were good enough excuses to be lazy with this post. If you're a grader and reading this maybe reach out with a response on the subject?</p>
+      <br>
+      <h3>What are your expectations of the class?</h3>
+      <p>Honestly I took it because I wanted to know a little more about the quirks of C++. I already know the language, but I'm by no means a master, and I heard the professor was one of the best at UT. After sitting in the first lecture though I'm probably more excited to learn about some of the tools like Docker, which I've dabbled in, but haven't really gotten into the meat and potatoes of making a project with yet. I guess I'm expecting the class to be a bit time consuming, but well worth the effort.</p>
+      <br>
+      <h3>What's your pick of the week?</h3>
+      <p>I could probably put 20 things here, but instead I'll just list two: </p>
+      <ul>
+	<li> <a href="http://www.lazygamereviews.com/prompt/">Lazy Game Reviews</a> </li>
+	<li> <a href="https://www.w3schools.com/">w3schools.com</a> </li>
+      </ul>
+      <p>The second is pretty standard. W3 has helped me make this website and a couple of others, and together with Tutorialspoint, is probably the best primer location for learning web development. It's not a one stop shop though, so be warned. However, it is a useful for reference and initial learning.</p>
+      <p>The first is far more interesting, especially if you're a fan of retro computers and software like I am. I'm also an avid youtube consumer, and LGR is my favorite channel. He walks through a lot of the history of consumer hardware and video games, providing backstory and dramatic commentary where necessary. Some videos are dry because he posts twice a week, but there are many gems in his work, specifically the Tech Tales series.</p>
+      <p>If you've never used DOS before his website might be a bit confusing, so here's a quick tutorial that should help you get started if you're curious enough. When you're first provided with the prompt type 'dir' then pres the ENTER key. That will list the files in the currrent working directory (it's the MS equivilant of ll or ls). Next type in 'TRAILER.EXE' and then press the ENTER key.</p>
+      <p>Enjoy.</p>
+      <br>
+    </div>
+    
+    <div id="footer">
+      Author: M.J. Nash, Circa 2018
+    </div>
+  </div>
+</body>
+
+</html>

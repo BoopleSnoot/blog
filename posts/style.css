@@ -137,6 +137,19 @@ body
     margin-right: 3em;
 }
 
+#main ul
+{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+#main li
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 #footer
 {
     grid-area: 4 / 1 / 4 / 11;
