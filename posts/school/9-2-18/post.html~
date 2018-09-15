@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-
+  <link rel="icon" href="../globals/mascot.png">
   <title>CS371p Fall 2018: Matt Nash</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
@@ -22,12 +22,12 @@
     <div id="nav1"><h4><a href="../../index.html">Home</a></h4></div>
     <div id="nav2"><h4><a href="../../aboutme/aboutme.html">About Me</a></h4></div>
     <div id="nav3"><h4><a href="../post-home.html">Posts</a></h4></div>
-    <div id="nav4"><h4><a href="https://github.com/BoopleSnoot">Projects</a></h4></div>
+    <div id="nav4"><h4><a href="https://github.com/bytesizetidbits/">Projects</a></h4></div>
     <div id="nav5"><h4><a href="../../index.html">Social</a></h4></div>
 
     <div id="main">
       <h2>September 9th 2018</h2>
-      <img src="../globals/mjn-post.jpg" alt="Matt Nash">
+      <img src="../../globals/mjn-post.jpg" alt="Matt Nash">
       <figcaption> Hey That's Me </figcaption>
       <h3>What did you do this past week?</h3>
       <p>Well like most students I guess I could write out that I started school, but that's a little dry so I'll talk about my social activities instead. </p>
@@ -59,7 +59,7 @@
     </div>
     
     <div id="footer">
-      Author: M.J. Nash, Circa 2018
+      Author: Matt Nash, Circa 2018
     </div>
   </div>
 </body>

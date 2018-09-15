@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <link rel="icon" href="posts/globals/mascot.png">
   <title>Byte Size Tidbits</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="script.js"></script>
 </head>
 
@@ -35,7 +35,7 @@
     </div>
     
     <div id="footer">
-      Author: M.J. Nash, Circa 2018
+      Author: BoopleSnoot - bytesizetidbits@gmail.com - M.J. Nash, Circa 2018
     </div>
   </div>
 </body>
