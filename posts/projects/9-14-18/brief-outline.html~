@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="../../globals/mascot.png">
-  <title>CS371p Fall 2018: Matt Nash</title>
+  <title>Byte Size Tidbits</title>
   <link rel="stylesheet" href="../../globals/style.css">
   <script src="script.js"></script>
 </head>
@@ -16,7 +16,7 @@
   <div id="container">
   
     <div id="header">
-      <h1>CS371p Fall 2018: Matt Nash</h1>
+      <h1>Byte Size Tidbits</h1>
     </div>
 
     <div id="nav1"><h4><a href="../../../index.html">Home</a></h4></div>
@@ -26,8 +26,67 @@
     <div id="nav5"><h4><a href="../../../index.html">Social</a></h4></div>
 
     <div id="main">
-      <img src="../../globals/mascot.png" alt="Matt Nash">
-      <figcaption>POST</figcaption>
+      <h2>Future Work and What's to Come</h2>
+      <p>There's a lot for us to do, and so little time. That seems to be my story each week, but despite my schedule I've decided to start getting work done. </p>
+      <p>But what does this work entail? Well that's a good question. Glad you asked it. However, first a little background.</p>
+      <p>Like every other student I've worked diligently on projects, had a few jobs doing some programmy things, and even coded a few toys in my free time. Yet...
+	I really had nothing to show for it. At least nothing to show to the world wibe web.</p>
+      <p>The excuses are threefold. First, professors frown upon putting answers to programming projects on a public repo. This is for obvious
+	reasons (plagarism etc.). Secondly, anything done in industry is not my intellectual property. It's the company's. So again, posting the super secret company code
+	on a public repo makes cheating (except this time at the corporate level) a lot easier. And makes me liable, and highly likely to get sued. Third...
+	Well that mainly has to do with personal accountability.</p>
+      <p>While I've worked on calculators, toy game engines, and even a small radio communications project in my spare time, I contained no motivation to do at least
+	three important things:</p>
+      <ul> <li>Keep the project and code organized</li> <li> See the project through to the end</li> <li>Publish my work on the correct platform, to the correct audience</li></ul>
+      <p>So how do I plan to remedy this? Another, good question, dear fellow peer.</p>
+      <p>Since I had to put together this blog for one of my classes anyways I decided it was high time I started organizing myself and sharing my wisdom with the world. Of course
+	just making the blog is only a small fraction of the work, and I'm still in the unfortunate situation of not being able to publish anything I do for school or work. And since
+	most of my personal work was rather crummy, it's high time I started from scratch. That means each post will be a journey through my free time as I attempt to complete a set of
+	projects, explain a bunch of steps to achieve greatness, or even implement a troublesome algorithm or two.
+      </p>
+      <p>The plan right now is to work on this site and present some tutorials to help other people like me navigate web development. I figure if I run into
+	trouble on my journey others will too, so why not help them (or even you) get past some of the same problems?
+      </p>
+      <p>This all means my personal work will revolve around improving this site/blog for the forseeable future. Big plans are in the works for it, and yes they even include making it look
+	a little better. But, before I delve into the touchy feely page design projects, the backend of our website needs to be rock solid. </p>
+
+      <p> Now we're getting into the real subject. How am I going to design a rock solid site? Well if you look at my github (<a href="https://github.com/bytesizetidbits/">shameless plug</a>),
+	you'll notice a project titled PET. That is where our journey will begin dear friend.</p>
+
+      <p>As a brief overview here are some of projects planned for the forseeable future (Disclaimer: timelines not included):</p>
+	<ul>
+	  <li>Markdown interpreter</li>
+	  <li>Markdown to HTML "compiler"</li>
+	  <li>Static HTML (development computer to website server) publisher</li>
+	  <li>Blog post editor and self-publishing webpage (browser based)</li>
+	  <li>Content database integration</li>
+	  <li>PaaS integration and setup</li>
+	  <li>Simple, lightweight, dynamic webserver</li>
+	  <li>Simple, lightweight, content management system</li>
+	</ul>
+      <p>Wow he's going to make a Wordpress server? So exciting... Slow your roll there, peanut gallery.</p>
+      <p>I plan to create these systems from scratch, and of course keep them as open projects on Github. They are of course subject to change and order. For now though I'm trying to ensure there are some cohesion
+	to the steps, so that in some way they build upon each other. By the end of this project cycle I intend to have a fully working CMS and dynamic webpage/webapp server created mostly from scratch.</p>
+      <p>Some of the tools I'll be using to get me there:</p>
+      	<ul>
+	  <li>emacs (for webpages)</li>
+	  <li>Eclipse (for programming projects)</li>
+	  <li>Clojure</li>
+	  <li>Clojurescript</li>
+	  <li>Javascript, for where clojurescript fails</li>
+	  <li>Leiningen, a Clojure project manager</li>
+	  <li>Github and Git</li>
+	  <li>Linux, most likely Fedora</li>
+	  <li>Google Compute Engine</li>
+	</ul>
+      <p>Along the way I'll both be documenting my progress and creating tutorials at specific steps. The tutorials will be for a more generalized audience, but nonetheless they will tie into all the work
+	I plan to do.</p>
+      <p>So that's about it. I hope you stay tuned and follow me as I attempt these monumental tasks one slow day at a time. Of course if you read this and you want to help in some way, please reach out to me.
+	Eventually I plan on putting a mailing list together, but for now you'll have to make the first move.</p>
+
+      <p>Matt out.</p>
+	  
+      
     </div>
     
     <div id="footer">

@@ -26,10 +26,29 @@
     <div id="nav5"><h4><a href="../index.html">Social</a></h4></div>
 
     <div id="main">
-      <ul>
-	<li><a href="9-2-18/post.html">September 2nd</a></li>
-	<li><a href="9-9-18/post.html">September 9th</a></li>
-      </ul>
+      <center>
+	
+	<h2>Projects</h2>
+	Sept. 14th: <a href="projects/9-14-18/brief-outline.html">Brief Outline</a>
+	<br>
+	<br>
+
+	<!--
+	<h2>Column</h2>
+	Sept. 15th: <a href="school/9-2-18/post.html">September 2nd</a>
+	<br>
+	<br>
+-->
+	
+	<h2>School</h2>
+	Sept. 9th: <a href="school/9-9-18/post.html">Second Week</a>
+	<br>
+	<br>
+	Sept. 2nd: <a href="school/9-2-18/post.html">First Week</a>
+	<br>
+	<br>
+	
+      </center>
     </div>
     
     <div id="footer">
