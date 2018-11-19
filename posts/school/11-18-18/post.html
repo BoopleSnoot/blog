@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="../../globals/mascot.png">
+  <title>CS371p Fall 2018: Matt Nash</title>
+  <link rel="stylesheet" href="../../globals/style.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+
+  <div id="container">
+  
+    <div id="header">
+      <h1>CS371p Fall 2018: Matt Nash</h1>
+    </div>
+
+    <div id="nav1"><h4><a href="../../../index.html">Home</a></h4></div>
+    <div id="nav2"><h4><a href="../../../aboutme/aboutme.html">About Me</a></h4></div>
+    <div id="nav3"><h4><a href="../../post-home.html">Posts</a></h4></div>
+    <div id="nav4"><h4><a href="https://github.com/bytesizetidbits/">Projects</a></h4></div>
+    <div id="nav5"><h4><a href="../../../social/social.html">Social</a></h4></div>
+
+    <div id="main">
+      <img src="../../globals/mjn-post.jpg" alt="Matt Nash">
+      <figcaption>Hey That's Me</figcaption>
+	  <h3>What did you do this past week?</h3>
+      <p>This past week I finished the Darwin project and breathed a sigh of relief as classes started to slow down in anticipation for Thanksgiving break. I had one last midterm and a couple of projects I had to turn in,
+      but all in all it was a quiet second half of the week.</p>
+      <br>
+      <h3>What's in your way?</h3>
+	  <p>In my way right now is the want to take an even bigger break than I need to. I want to stay ahead of all of my work, and I know that if I push it off until next weekend I'll be completely pressed for time as everything becomes due at once.
+    In order to avoid this I've set a schedule to work on assignments throughout the week. That way when everything is due I'll already have completed them early.</p>
+    <br>
+      <h3>What will you do next week?</h3>
+      <p>This coming week I'll be working on the Life project. I have a plan to make my code as organized as possible. I also want to increment each piece in small steps. First building the abstract class, then the children classes, etc.
+      Beyond that I have a few other assignments due for other classes that I will be working on.</p>
+      <h3>What are your experiences on Project 4?</h3>
+      <p>Project 4 was a bit of work, but a lot of fun. I feel like I learned a lot, unfortunately those lessons were made in what not to do. I had a huge "bug" in the way my program was designed that caused Valgrind not to pass any tests.
+      Essentially Valgrind would complain that I had unitialized memory being accessed. I eventually discovered the cause (after hour of trial and error). The root of the problem was I created and initialized lists of user-defined objects inside
+      of another user defined class. I wasn't populating the lists first and then passing them as arguments to the constructor. This made Valgrind angry, because to the memory program, it had no way of checking inside the constructor that I actually initialized
+      the lists in time to use them! Of course I remedy the situation by initializing anc constructing the lists, and then copying them on Construction of my main class. </p>
+      <br>
+      
+      <h3>What's your pick of the week?</h3>
+      
+      <a href="https://www.infoworld.com/article/3284164/java/oracle-now-requires-a-subscription-to-use-java-se.html">Java Subscription</a>
+      <a href="https://www.aspera.com/en/blog/oracle-will-charge-for-java-starting-in-2019/">Java Information for Companies</a>
+      <p>If you read the two articles above you'll see that Oracle is changing its licensing agreement for Java. The low down is that, as a company using the enterprise version of Java (not the open source OpenJDK), the use of Java just became a lot
+      more expensive. I forsee this having a big impact on future use of the language, and I'll be interested to see how language adoption trends change in the months/years to come, especially at the corporate level.</p>
+      
+      <br>
+	  
+    </div>
+    
+    <div id="footer">
+      Author: Matt Nash, Circa 2018
+    </div>
+  </div>
+</body>
+
+</html>
